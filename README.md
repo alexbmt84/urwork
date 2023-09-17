@@ -34,7 +34,15 @@ Install dependencies :
 npm install
 ```
 
-Create a ```bash .env``` file at the root of the project.
+Create a ```.env``` file at the root of the project.
+
+Create a new database that needs to match with the database name and the credentials you've set in ```.env``` file.
+
+Import the example .sql file located at the route of the project into your database.
+
+```bash
+php artisan serve
+```
 
 
 
