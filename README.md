@@ -38,12 +38,20 @@ Create a ```.env``` file at the root of the project.
 
 Create a new database that needs to match with the database name and the credentials you've set in ```.env``` file.
 
-Import the example .sql file located at the route of the project into your database.
+
+Some examples will by added too by executing :
+
+```bash
+php artisan migrate
+```
+
+Start the server :
 
 ```bash
 php artisan serve
 ```
 
+Create an account or log in with the example with credentials located in User migration file.
 
 
 
